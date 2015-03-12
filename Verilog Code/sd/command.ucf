@@ -1,0 +1,5 @@
+NET "clk" LOC = V10;
+NET "led1" LOC = U16;
+NET "cmd" LOC = V12;
+NET "clk_out" LOC = P11;
+NET "CS" LOC = T12;

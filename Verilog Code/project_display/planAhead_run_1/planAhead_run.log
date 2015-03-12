@@ -1,0 +1,207 @@
+
+****** PlanAhead v14.2 (64-bit)
+  **** Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/project_display/pa.fromHdl.tcl
+# create_project -name project_display -dir "E:/project_display/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "test.ucf" [current_fileset -constrset]
+Adding file 'E:/project_display/test.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/bg_rom.ngc}]
+# add_files [list {ipcore_dir/bird_rom.ngc}]
+# add_files [list {ipcore_dir/pipe_rom.ngc}]
+# add_files [list {ipcore_dir/number_rom.ngc}]
+# add_files [list {ipcore_dir/word_rom.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/word_rom.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/pipe_rom.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/number_rom.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/bird_rom.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/bg_rom.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BCD.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {word_rom.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vga_output.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {VGAcontrol.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {pipe_rom_interface.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {number_rom_interface.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {display_mux.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clk_vga.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bird_state_generater.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bird_rom_interface.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bg_rom_interface.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {display_module.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {test.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top test $srcset
+# add_files [list {test.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/bg_rom.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/bird_rom.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/number_rom.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/pipe_rom.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/word_rom.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/project_display/ipcore_dir/word_rom.v" into library work
+Analyzing Verilog file "E:/project_display/ipcore_dir/pipe_rom.v" into library work
+Analyzing Verilog file "E:/project_display/ipcore_dir/number_rom.v" into library work
+Analyzing Verilog file "E:/project_display/ipcore_dir/bird_rom.v" into library work
+Analyzing Verilog file "E:/project_display/ipcore_dir/bg_rom.v" into library work
+Analyzing Verilog file "E:/project_display/BCD.v" into library work
+Analyzing Verilog file "E:/project_display/word_rom.v" into library work
+Analyzing Verilog file "E:/project_display/vga_output.v" into library work
+Analyzing Verilog file "E:/project_display/VGAcontrol.v" into library work
+Analyzing Verilog file "E:/project_display/pipe_rom_interface.v" into library work
+Analyzing Verilog file "E:/project_display/number_rom_interface.v" into library work
+Analyzing Verilog file "E:/project_display/display_mux.v" into library work
+Analyzing Verilog file "E:/project_display/clk_vga.v" into library work
+Analyzing Verilog file "E:/project_display/bird_state_generater.v" into library work
+Analyzing Verilog file "E:/project_display/bird_rom_interface.v" into library work
+Analyzing Verilog file "E:/project_display/bg_rom_interface.v" into library work
+Analyzing Verilog file "E:/project_display/display_module.v" into library work
+Analyzing Verilog file "E:/project_display/test.v" into library work
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design bg_rom.ngc ...
+WARNING:NetListWriters:298 - No output is written to bg_rom.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bg_rom.edif ...
+ngc2edif: Total memory usage is 78356 kilobytes
+
+Reading core file 'E:/project_display/ipcore_dir/bg_rom.ngc' for (cell view 'bg_rom', library 'work', file 'bg_rom.v')
+Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/bg_rom.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/bg_rom.edif]
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design bird_rom.ngc ...
+WARNING:NetListWriters:298 - No output is written to bird_rom.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bird_rom.edif ...
+ngc2edif: Total memory usage is 78036 kilobytes
+
+Reading core file 'E:/project_display/ipcore_dir/bird_rom.ngc' for (cell view 'bird_rom', library 'work', file 'bird_rom.v')
+Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/bird_rom.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/bird_rom.edif]
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design pipe_rom.ngc ...
+WARNING:NetListWriters:298 - No output is written to pipe_rom.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file pipe_rom.edif ...
+ngc2edif: Total memory usage is 79892 kilobytes
+
+Reading core file 'E:/project_display/ipcore_dir/pipe_rom.ngc' for (cell view 'pipe_rom', library 'work', file 'pipe_rom.v')
+Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/pipe_rom.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/pipe_rom.edif]
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design number_rom.ngc ...
+WARNING:NetListWriters:298 - No output is written to number_rom.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file number_rom.edif ...
+ngc2edif: Total memory usage is 77332 kilobytes
+
+Reading core file 'E:/project_display/ipcore_dir/number_rom.ngc' for (cell view 'number_rom', library 'work', file 'number_rom.v')
+Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/number_rom.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/number_rom.edif]
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design word_rom.ngc ...
+WARNING:NetListWriters:298 - No output is written to word_rom.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file word_rom.edif ...
+ngc2edif: Total memory usage is 77844 kilobytes
+
+Reading core file 'E:/project_display/ipcore_dir/word_rom.ngc' for (cell view 'word_rom', library 'work', file 'word_rom.v')
+Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/word_rom.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-11596-ECE-PHO115-17/ngc2edif/word_rom.edif]
+Loading clock regions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/project_display/ipcore_dir/bg_rom.ncf]
+Finished Parsing UCF File [E:/project_display/ipcore_dir/bg_rom.ncf]
+Parsing UCF File [E:/project_display/ipcore_dir/bird_rom.ncf]
+Finished Parsing UCF File [E:/project_display/ipcore_dir/bird_rom.ncf]
+Parsing UCF File [E:/project_display/ipcore_dir/number_rom.ncf]
+Finished Parsing UCF File [E:/project_display/ipcore_dir/number_rom.ncf]
+Parsing UCF File [E:/project_display/ipcore_dir/pipe_rom.ncf]
+Finished Parsing UCF File [E:/project_display/ipcore_dir/pipe_rom.ncf]
+Parsing UCF File [E:/project_display/ipcore_dir/word_rom.ncf]
+Finished Parsing UCF File [E:/project_display/ipcore_dir/word_rom.ncf]
+Parsing UCF File [E:/project_display/test.ucf]
+Finished Parsing UCF File [E:/project_display/test.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 99d11093
+open_rtl_design: Time (s): elapsed = 00:00:32 . Memory (MB): peak = 568.391 ; gain = 171.285
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

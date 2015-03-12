@@ -1,0 +1,258 @@
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test.ucf -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test.ucf -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test.ucf -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "D:/project_display/Main.xst" -ofn "D:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "D:/project_display/Main.xst" -ofn "D:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "E:/project_display/Main.xst" -ofn "E:/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "/ad/eng/users/b/a/bangbang/EC551/project_display/Main.xst" -ofn "/ad/eng/users/b/a/bangbang/EC551/project_display/Main.syr" 
+xst -intstyle ise -ifn "/ad/eng/users/b/a/bangbang/EC551/project_display/Main.xst" -ofn "/ad/eng/users/b/a/bangbang/EC551/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "X:/EC551/project_display/Main.xst" -ofn "X:/EC551/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "X:/EC551/project_display/Main.xst" -ofn "X:/EC551/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "X:/EC551/project_display/Main.xst" -ofn "X:/EC551/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "X:/EC551/project_display/Main.xst" -ofn "X:/EC551/project_display/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx16-csg324-3 Main.ngc Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf main.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 

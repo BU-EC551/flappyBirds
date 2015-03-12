@@ -1,0 +1,119 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Users\BEN\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise
+-v 3 -s 3 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf
+test.ucf
+
+Design file:              test.ncd
+Physical constraint file: test.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.937|         |         |         |
+level<0>       |    8.267|    8.267|         |         |
+level<1>       |    8.093|    8.093|         |         |
+state<0>       |    8.540|    8.540|         |         |
+state<1>       |    9.062|    9.062|         |         |
+state<2>       |    3.514|    3.514|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock level<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.060|         |
+level<0>       |         |         |   -0.050|   -0.050|
+level<1>       |         |         |   -0.022|   -0.022|
+state<0>       |         |         |   -0.434|   -0.434|
+state<1>       |         |         |    0.224|    0.224|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock level<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.060|         |
+level<0>       |         |         |    0.065|    0.065|
+level<1>       |         |         |    0.097|    0.097|
+state<0>       |         |         |   -0.319|   -0.319|
+state<1>       |         |         |    0.453|    0.453|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.060|         |
+level<0>       |         |         |    0.447|    0.447|
+level<1>       |         |         |    0.485|    0.485|
+state<0>       |         |         |    0.007|    0.007|
+state<1>       |         |         |    0.841|    0.841|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.060|         |
+level<0>       |         |         |   -0.339|   -0.339|
+level<1>       |         |         |   -0.311|   -0.311|
+state<0>       |         |         |   -0.723|   -0.723|
+state<1>       |         |         |   -0.102|   -0.102|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.060|         |
+level<0>       |         |         |   -0.107|   -0.107|
+level<1>       |         |         |   -0.079|   -0.079|
+state<0>       |         |         |   -0.491|   -0.491|
+state<1>       |         |         |    0.152|    0.152|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Apr 27 10:59:27 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 243 MB
+
+
+

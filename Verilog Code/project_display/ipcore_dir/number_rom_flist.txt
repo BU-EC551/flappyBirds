@@ -1,0 +1,3 @@
+# Output products list for <number_rom>
+number_rom.xco
+number_rom_flist.txt

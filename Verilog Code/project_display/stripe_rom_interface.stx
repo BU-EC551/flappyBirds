@@ -1,0 +1,73 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/project_display/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to E:/project_display/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: stripe_rom_interface.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\project_display\ipcore_dir\stripe_rom.v" into library work
+Parsing module <stripe_rom>.
+Analyzing Verilog file "E:\project_display\stripe_rom.v" into library work
+Parsing module <stripe_rom_interface>.
+ERROR:HDLCompiler:806 - "E:\project_display\stripe_rom.v" Line 55: Syntax error near "end".
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 64: <addra> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 66: <addra> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 69: <addr_output> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 70: <bg_upper> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 71: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 72: <bg_lower> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 73: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 75: <addr_output> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 76: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 77: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 78: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 79: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 80: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 81: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 82: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 83: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 84: <bg_pixel> is not declared.
+ERROR:HDLCompiler:69 - "E:\project_display\stripe_rom.v" Line 85: <bg_pixel> is not declared.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 178028 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

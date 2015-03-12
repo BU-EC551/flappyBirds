@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Thu May 01 18:49:56 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led1" LOCATE = SITE "U16" LEVEL 1;
+COMP "cmd" LOCATE = SITE "V12" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "CS" LOCATE = SITE "T12" LEVEL 1;
+COMP "clk_out" LOCATE = SITE "P11" LEVEL 1;
+SCHEMATIC END;
+

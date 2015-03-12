@@ -1,0 +1,3 @@
+verilog work "response.v"
+verilog work "cmd_generater.v"
+verilog work "command.v"

@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/stripe_rom.v"
+verilog work "stripe_rom.v"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "X:/EC551/sd/cmd_generater.xst" -ofn "X:/EC551/sd/cmd_generater.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc command.ucf -bm t_command.bmm -p xc6slx16-csg324-3 cmd_generater.ngc cmd_generater.ngd  

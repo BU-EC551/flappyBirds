@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\EC551\project_display\impact.xsl
+OUTFILE=X:\EC551\project_display\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=X:\EC551\project_display
+LICENSE=iMPACT
+USER_INFO=iMPACT

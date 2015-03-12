@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/word_rom.v"
+verilog work "word_rom.v"

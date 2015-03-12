@@ -1,0 +1,47 @@
+
+****** PlanAhead v14.2 (64-bit)
+  **** Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /ad/eng/users/b/a/bangbang/EC551/sd/pa.fromHdl.tcl
+# create_project -name sd -dir "/ad/eng/users/b/a/bangbang/EC551/sd/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 2663.277 ; gain = 39.578
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "command.ucf" [current_fileset -constrset]
+Adding file '/ad/eng/users/b/a/bangbang/EC551/sd/command.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {command.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top command $srcset
+# add_files [list {command.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "/ad/eng/users/b/a/bangbang/EC551/sd/command.v" into library work
+Loading clock regions from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/ad/eng/users/b/a/bangbang/EC551/sd/command.ucf]
+Finished Parsing UCF File [/ad/eng/users/b/a/bangbang/EC551/sd/command.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 901a46bb
+open_rtl_design: Time (s): cpu = 00:00:37 ; elapsed = 00:01:16 . Memory (MB): peak = 2840.707 ; gain = 169.840

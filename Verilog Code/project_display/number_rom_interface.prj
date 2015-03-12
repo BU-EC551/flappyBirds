@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/number_rom.v"
+verilog work "BCD.v"
+verilog work "number_rom_interface.v"

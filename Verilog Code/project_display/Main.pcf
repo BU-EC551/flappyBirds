@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Wed Apr 30 18:21:18 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "HS" LOCATE = SITE "N6" LEVEL 1;
+COMP "VS" LOCATE = SITE "P7" LEVEL 1;
+COMP "RST" LOCATE = SITE "C12" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "g<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "g<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "g<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "r<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "r<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "r<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "STATUS_IN" LOCATE = SITE "D12" LEVEL 1;
+COMP "paus" LOCATE = SITE "B8" LEVEL 1;
+COMP "test" LOCATE = SITE "M11" LEVEL 1;
+COMP "quit" LOCATE = SITE "D9" LEVEL 1;
+COMP "data_r2" LOCATE = SITE "N17" LEVEL 1;
+COMP "data_t2" LOCATE = SITE "N18" LEVEL 1;
+COMP "STATUS_OUT" LOCATE = SITE "T11" LEVEL 1;
+COMP "data_r" LOCATE = SITE "F11" LEVEL 1;
+COMP "data_t" LOCATE = SITE "F10" LEVEL 1;
+COMP "pushin" LOCATE = SITE "C9" LEVEL 1;
+COMP "state<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "state<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "state<2>" LOCATE = SITE "U15" LEVEL 1;
+SCHEMATIC END;
+

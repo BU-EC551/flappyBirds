@@ -1,0 +1,70 @@
+
+
+NET "choice[2]" IOSTANDARD = LVCMOS33;
+NET "choice[1]" IOSTANDARD = LVCMOS33;
+NET "choice[0]" IOSTANDARD = LVCMOS33;
+NET "color[7]" IOSTANDARD = LVCMOS33;
+NET "color[6]" IOSTANDARD = LVCMOS33;
+NET "color[5]" IOSTANDARD = LVCMOS33;
+NET "color[4]" IOSTANDARD = LVCMOS33;
+NET "color[3]" IOSTANDARD = LVCMOS33;
+NET "color[2]" IOSTANDARD = LVCMOS33;
+NET "color[1]" IOSTANDARD = LVCMOS33;
+NET "color[0]" IOSTANDARD = LVCMOS33;
+NET "began" IOSTANDARD = LVCMOS33;
+NET "HS" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "paus" IOSTANDARD = LVCMOS33;
+NET "quit" IOSTANDARD = LVCMOS33;
+NET "VS" IOSTANDARD = LVCMOS33;
+
+
+NET "began" LOC = C4;
+
+
+NET "color[0]" LOC = T7;
+NET "color[1]" LOC = R7;
+NET "color[2]" LOC = V6;
+NET "color[3]" LOC = T6;
+NET "color[4]" LOC = P8;
+NET "color[5]" LOC = N7;
+NET "color[6]" LOC = V7;
+NET "color[7]" LOC = U7;
+NET "clk" LOC = V10;
+NET "HS" LOC = N6;
+NET "paus" LOC = B8;
+NET "quit" LOC = D9;
+NET "VS" LOC = P7;
+NET "state[0]" LOC = U16;
+NET "state[1]" LOC = V16;
+NET "state[2]" LOC = U15;
+NET "choice[0]" LOC = T10;
+NET "choice[1]" LOC = T9;
+NET "choice[2]" LOC = V9;
+
+
+NET "state[0]" IOSTANDARD = LVCMOS33;
+NET "state[1]" IOSTANDARD = LVCMOS33;
+NET "state[2]" IOSTANDARD = LVCMOS33;
+
+
+NET "clk_9600" IOSTANDARD = LVCMOS33;
+NET "data_r" IOSTANDARD = LVCMOS33;
+NET "data_t" IOSTANDARD = LVCMOS33;
+NET "RST" IOSTANDARD = LVCMOS33;
+NET "send_button" IOSTANDARD = LVCMOS33;
+NET "STATUS_IN" IOSTANDARD = LVCMOS33;
+NET "STATUS_OUT" IOSTANDARD = LVCMOS33;
+
+
+NET "clk_9600" LOC = R11;
+NET "STATUS_OUT" LOC = T11;
+NET "STATUS_IN" LOC = D12;
+NET "RST" LOC = C12;
+NET "data_r" LOC =N17; //F11;
+NET "data_t" LOC =N18; //F10;
+NET "send_button" LOC = A8;
+
+# PlanAhead Generated physical constraints 
+
+NET "pushin" LOC = C9;

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:49:25 MDT 2012
+# Start of session at: Thu Apr 17 19:25:35 2014
+# Process ID: 20511
+# Log file: /ad/eng/users/b/a/bangbang/EC551/sd/planAhead_run_1/planAhead.log
+# Journal file: /ad/eng/users/b/a/bangbang/EC551/sd/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /ad/eng/users/b/a/bangbang/EC551/sd/pa.fromHdl.tcl
