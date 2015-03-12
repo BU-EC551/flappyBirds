@@ -1,6 +1,7 @@
 Project: Flappy Birds
 
 Created By: Team Horizon Brave
+
 Team Members: 
 Xiaofeng Su 
 Yao Wei Tsai 
